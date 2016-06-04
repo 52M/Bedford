@@ -33,10 +33,10 @@
                     </div>
                   </form>
                   <?php wp_list_comments("type=comment&callback=bedford_comments"); ?>
-				  <?php if (get_option('page_comments') && paginate_comments_links('echo=0')) : ?>
+                  <?php if (get_option('page_comments') && paginate_comments_links('echo=0')) : ?>
                   <div class="page-navigator clearfix">
                     <div class="in-mark">
-					  <?php echo str_replace(">&laquo;", "class=\"pre\">&laquo;", get_previous_comments_link(__('&laquo; 上一页'))); ?>
+                      <?php echo str_replace(">&laquo;", "class=\"pre\">&laquo;", get_previous_comments_link(__('&laquo; 上一页'))); ?>
                       <?php echo str_replace(">下一页", "class=\"next\">下一页", get_next_comments_link(__('下一页 &raquo;'))); ?>
                     </div>
                   </div>

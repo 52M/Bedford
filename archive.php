@@ -16,7 +16,7 @@ Template Name: 归档页面
   $the_query = new WP_Query('posts_per_page=-1&ignore_sticky_posts=1');
   $current_year = 0;
   while ($the_query -> have_posts()) {
-	  $the_query -> the_post();
+      $the_query -> the_post();
       if (get_the_time('Y') != $current_year) {
           if ($current_year != 0) echo "</ul>";
           $current_year = get_the_time('Y');

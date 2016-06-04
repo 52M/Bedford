@@ -1,6 +1,6 @@
 <?php
 function bedford_comments($comment, $args, $depth) {
-	$GLOBALS['comment'] = $comment;
+    $GLOBALS['comment'] = $comment;
 ?>
                   <ul id="comments">
                   <li class="comment" id="comment-<?php comment_ID(); ?>">
@@ -13,9 +13,9 @@ function bedford_comments($comment, $args, $depth) {
                         <div class="author-date"><small><?php comment_date('m-d-Y'); ?> <?php comment_time('H:i'); ?></small>
                         </div>
                       </div>
-					  <?php if ($comment -> comment_approved == '0') : ?>
-					  <p><small><strong>你的评论正在等待审核，审核完成前仅自己可见。</strong></small></p>
-      	              <?php endif; ?>
+                      <?php if ($comment -> comment_approved == '0') : ?>
+                      <p><small><strong>你的评论正在等待审核，审核完成前仅自己可见。</strong></small></p>
+                        <?php endif; ?>
                       <div class="comment_content"><?php comment_text(); ?></div>
                     </div>
                   </li>

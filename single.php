@@ -16,13 +16,13 @@
             </div>
           </div>
         </div>
-		<? if (comments_open() || get_comments_number()) : ?>
-		<script>
+        <? if (comments_open() || get_comments_number()) : ?>
+        <script>
           $(document).ready(function(){
             $("#nav_blog").addClass("current");
           });
         </script>
-		<?php endif; ?>
+        <?php endif; ?>
       </section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

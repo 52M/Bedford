@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
-    <link rel="alternate" type="application/rss+xml" title="rss 2.0" href="/feed/">
+    <link rel="alternate" type="application/rss+xml" title="rss 2.0" href="<?php echo home_url(); ?>/feed/">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
     <meta content="yes" name="apple-mobile-web-app-capable"/>
     <meta content="black" name="apple-mobile-web-app-status-bar-style"/>

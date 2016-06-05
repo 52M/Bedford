@@ -11,18 +11,18 @@
                 </header>
                 <section class="post-content"><?php the_content(('')); ?></section>
               </article>
-              <?php if (comments_open() || get_comments_number()) comments_template();?>
+              <?php if (comments_open() || get_comments_number()) comments_template(); ?>
               <?php endwhile; ?>
             </div>
           </div>
         </div>
-		<?php if (comments_open() || get_comments_number()) : ?>
-		<script>
+        <?php if (comments_open() || get_comments_number()) : ?>
+        <script>
           $(document).ready(function(){
             $("#nav_blog").addClass("current");
           });
         </script>
-		<?php endif; ?>
+        <?php endif; ?>
       </section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

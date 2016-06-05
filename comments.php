@@ -1,6 +1,6 @@
 <?php if (comments_open()) : ?>
               <div id="comments_container">
-                <div class="in-mark"><link href="<?php echo esc_url(get_template_directory_uri());?>/static/comment-style.scss" type="text/css" rel="stylesheet"/>
+                <div class="in-mark"><link href="<?php echo esc_url(get_template_directory_uri());?>/static/comment-style.css" type="text/css" rel="stylesheet"/>
                 <div class="comment-title">发表评论</div>
                   <form id="new_comment" method="post" action="<?php echo home_url(); ?>/wp-comments-post.php">
                     <input type="hidden" name="comment_post_ID" value="<?php echo $post->ID; ?>" />

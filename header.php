@@ -11,7 +11,7 @@
     <meta name="description" content="<?php bloginfo('description'); ?>" />
     <title><?php wp_title("-", true, 'right'); bloginfo('name'); ?></title>
 
-    <link href="<?php echo esc_url(get_template_directory_uri());?>/static/style.scss" type="text/css" rel="stylesheet"/>
+    <link href="<?php echo esc_url(get_template_directory_uri());?>/static/style.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri());?>/static/jquery.min.js"></script>
     <!-- WordPress Native Head Output -->
     <?php wp_head(); ?>

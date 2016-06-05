@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="alternate" type="application/rss+xml" title="rss 2.0" href="<?php echo home_url(); ?>/feed/">
   <meta name="viewport" content="width=device-width"/>
-  <title>请求的页面不存在</title><link href="<?php echo esc_url(get_template_directory_uri());?>/static/style.scss" type="text/css" rel="stylesheet"/>
+  <title>请求的页面不存在</title><link href="<?php echo esc_url(get_template_directory_uri());?>/static/style.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <div class="body404">

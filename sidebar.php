@@ -3,8 +3,8 @@
           <section class="widget">
             <div id="nav-menu">
                 <a id="nav_blog" href="<?php echo home_url(); ?>"<?php if (is_home() || is_front_page()) echo " class=\"selected active current\""; ?>>博客</a>
-                <a href="<?php echo home_url(); ?>/archive/">归档</a>
-                <a href="<?php echo home_url(); ?>/about/">关于</a>
+                <a href="<?php echo home_url(); ?>/archive/"<?php if (is_page('archive')) echo " class=\"selected active current\""; ?>>归档</a>
+                <a href="<?php echo home_url(); ?>/about/"<?php if (is_page('about')) echo " class=\"selected active current\""; ?>>关于</a>
             </div>
           </section>
           <section class="widget">
